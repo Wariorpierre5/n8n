@@ -1,4 +1,4 @@
-# This $50 Electric Toothbrush Is the Glow-Up Your Smile Has Been Waiting For
+# This $50 Electric Toothbrush Is the Glow-Up Your Smile Has Been Waiting For — 2026
 
 Okay real talk — your smile shows up in every selfie, every date, every Zoom call. And if you're still brushing with a $3 manual toothbrush, you're leaving a massive glow-up on the table for less than the price of a night out.
 

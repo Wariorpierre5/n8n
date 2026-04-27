@@ -6,17 +6,17 @@
 
 **Avatar Prompt (Image Generation):**
 
-A candid-style lifestyle photograph of a 34-year-old white American woman standing in a bright, slightly cluttered suburban kitchen. She has naturally medium-brown hair pulled into a loose ponytail with a few strands escaping around her face — not styled, just functional. Her complexion is fair with slight undereye circles from disrupted sleep, a few faint laugh lines at the corners of her eyes, and a small patch of dry skin near her chin. She is not wearing makeup, or perhaps just minimal mascara from the previous morning.
+A candid lifestyle photograph of a 34-year-old white American woman standing in her suburban Ohio bathroom, facing the camera with a warm, natural smile. She has medium-brown hair pulled into a loose ponytail with a few strands escaping around her face. Her complexion is fair with slight undereye circles, faint laugh lines at the corners of her eyes. Minimal makeup — maybe mascara from the night before. She is wearing a heather-gray pullover and dark wash mom jeans — she has stepped into the bathroom before getting the kids ready. She is slightly above average weight, soft and real.
 
-She is dressed in a heather-gray Old Navy pullover, dark wash mom jeans, and white sneakers scuffed at the toe. She wears a simple gold stud earring, one missing. A phone is half-visible in her back pocket. She is slightly above average weight for her height — soft, real, and visibly a person who runs a household, not a gym.
+She holds the **Aquasonic Black Series Ultra Whitening Toothbrush** in her right hand, raised naturally to just below chin height as if she has just finished brushing or is about to start. No charger, no cables, no accessories visible anywhere in the frame. The brush alone: matte black cylindrical body, a silver metallic accent ring near the base, white sonic brush head with rounded bristles at the top. The Aquasonic logo in small white lettering on the lower shaft. Her grip is relaxed and natural — four fingers wrapped loosely around the handle, thumb resting on the side.
 
-She is holding the **Aquasonic Black Series Ultra Whitening Toothbrush** in her right hand, loosely at waist level — not posed, just removed from the Amazon box on the counter beside her. The brush is matte black with a sleek cylindrical body, a silver metallic accent ring near the base, and a white sonic brush head attached at the top. The handle is glossy-black ABS plastic with subtle grip texturing. The Aquasonic logo is printed in small white lettering along the lower shaft. A black USB charging cable and one of the 8 included replacement heads are visible on the counter next to the open box.
+The bathroom is a typical Ohio suburban bathroom: white or beige tile, a mirror behind her, a few family toiletries on the counter. Nothing staged.
 
-**Lighting:** Warm morning kitchen light through a window, slightly overexposed on one side. Coffee maker visible in the background. A child's backpack on the floor.
+**Lighting:** Warm overhead bathroom light mixed with soft natural light from a frosted window. Slightly warm color tone. Real, not studio-lit.
 
-**Expression:** Slightly distracted but warm — she is looking slightly off-camera as if checking on something in the next room. Natural, unposed smile.
+**Expression:** Direct, warm, genuine smile facing the camera — the look of someone who is pleased with a practical purchase, not performing for an ad.
 
-**Camera:** Shot on a 35mm lens, f/2.2, shallow depth of field. Lifestyle editorial aesthetic, not advertising polish.
+**Camera:** 50mm, f/2.2, natural light. Lifestyle editorial. No artificial softening.
 
 ---
 

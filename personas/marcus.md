@@ -6,17 +6,17 @@
 
 **Avatar Prompt (Image Generation):**
 
-A confident, polished Black American man in his early 50s, standing in a luxury hotel bathroom or his Atlanta penthouse en-suite — marble countertop, frameless mirror, warm recessed lighting. He is approximately 6'1", lean but not gym-obsessed — the build of someone who walks a lot, plays golf on weekends, and watches what he eats at client dinners.
+A polished Black American man in his early 50s standing in his Atlanta penthouse en-suite bathroom, facing the camera with a composed, confident smile. The bathroom is premium: large-format marble tile, frameless mirror, warm recessed lighting. He is approximately 6'1", lean and well-groomed. Closely cropped hair with a precise fade, salt-and-pepper at the temples. Deep mahogany skin, clean-shaven structured jaw. He wears a white dress shirt with the collar open and sleeves rolled to the forearm — end of a long day, still composed.
 
-His hair is closely cropped with a precise fade, salt-and-pepper at the temples. His skin is deep mahogany with a healthy sheen. A few lines at the corners of his eyes when he smiles. His jaw is clean-shaven and structured. He wears a white dress shirt, sleeves rolled to the forearm, collar open — end of a long day, still composed.
+He is actively brushing his teeth or holding the **Philips Sonicare DiamondClean Prestige 9900** raised to his mouth, smiling slightly around it — the natural expression of someone comfortable in front of a mirror. No charger, no cables, no dock visible anywhere in the frame. The brush alone: premium pearl white body with a soft-touch matte finish, polished chrome accent band near the base, DiamondClean brush head with fine bristles arranged in a precise pattern, Philips logo and "Sonicare" embossed in silver on the upper shaft. His grip is confident and deliberate — the way someone holds an object they chose carefully.
 
-He is holding the **Philips Sonicare DiamondClean Prestige 9900** in his right hand, examining it with calm appreciation rather than using it. The brush body is a premium pearl white with a soft-touch matte finish and a polished chrome accent band near the base. The DiamondClean brush head is white with fine black bristle tufts arranged in a diamond pattern. The handle tapers elegantly toward the top. Beside him on the marble counter sits the signature **glass charging dock** — a crystal-clear cylindrical vessel with a brushed silver wireless charging base, glowing with a faint white light. The Philips logo and "Sonicare" are embossed in silver on the handle.
+The marble counter behind him is clean and uncluttered. No products visible except the brush in his hand.
 
-**Lighting:** Dramatic office window light, soft shadows on one side of his face. Cool blue-gray ambient tone from the city visible behind him.
+**Lighting:** Warm recessed bathroom lighting with a subtle directional shadow on one side of his face. Rich, editorial tone.
 
-**Expression:** Direct, composed, faintly self-assured. Not smiling wide — a confident half-smile that says "I've closed this deal before."
+**Expression:** Direct, self-assured half-smile toward the camera. Confident without being theatrical.
 
-**Camera:** 85mm portrait lens, f/1.8. Corporate editorial meets personal branding photography.
+**Camera:** 85mm, f/1.8. Personal branding editorial. Premium feel.
 
 ---
 

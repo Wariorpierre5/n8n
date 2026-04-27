@@ -6,17 +6,17 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 26-year-old biracial (Black/white) man photographed in a bright Austin apartment, standing at a bathroom counter or kitchen island next to a smoothie blender and an Oura Ring charger. He is lean and visibly athletic — not bodybuilder bulk but the functional fitness look of someone who does CrossFit, tracks macros, and cycles to work.
+A 26-year-old biracial (Black/white) man standing in his clean, minimal Austin apartment bathroom, facing the camera with a relaxed, natural smile. He is around 5'11", lean and visibly athletic. Natural medium-length hair, slightly compressed on one side — just woke up. Clear skin with slight post-workout flush. An Oura Ring visible on his right index finger. He is wearing a fitted short-sleeve merino t-shirt in sage green.
 
-He is around 5'11" with defined arms visible under a fitted short-sleeve merino t-shirt in sage green. His hair is natural, medium-length, slightly compressed on one side. A faint scar on his chin. Clear skin with some post-workout flush. An Oura Ring on his right index finger. He is holding his phone in one hand, the Sonicare app open showing a 16-zone mouth map with color-coded brushing coverage data on screen.
+He is brushing his teeth or holding the **Philips Sonicare 7300 Series Electric Toothbrush** raised toward his mouth, smiling naturally around it. No charger, no cables, no phone visible in the frame — the brush alone. The handle is dark navy blue with a soft-touch rubberized grip along the lower two-thirds. A small rectangular LED display on the front shows the selected mode. The BrushSync brush head is white with a teal indicator ring at its base. A subtle Bluetooth indicator light glows near the top. "Sonicare" printed in white along the shaft. His grip is relaxed, one-handed, natural — the way someone holds a brush mid-routine.
 
-In his other hand, he holds the **Philips Sonicare 7300 Series Electric Toothbrush** at eye level, inspecting it with focused curiosity. The handle is a sleek dark navy blue with a soft-touch rubberized grip along the lower two-thirds. A small rectangular LED display on the front shows the selected cleaning mode. The BrushSync brush head is white with a small color-coded indicator ring at the base in teal. A thin Bluetooth antenna indicator light glows subtly near the top of the handle. The "Sonicare" wordmark is printed in white along the shaft.
+The bathroom is clean and intentional: white surfaces, minimal products on the counter, no clutter.
 
-**Lighting:** Bright, diffused morning natural light through large windows. Neutral tones. Clean counter with intentional objects: supplement bottles, a notebook, wireless earbuds.
+**Lighting:** Bright, diffused natural morning light through a frosted window. Cool-neutral tone. Feels like a real morning, not a shoot.
 
-**Expression:** Focused, slightly skeptical, intellectually engaged. Not performing for the camera.
+**Expression:** Relaxed, genuine smile toward the camera. Confident without effort.
 
-**Camera:** 28mm wide-angle, shot from a slight low angle. Feels candid, slightly editorial.
+**Camera:** 35mm, f/2.0. Candid lifestyle feel. Slightly editorial.
 
 ---
 

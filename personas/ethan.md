@@ -6,15 +6,17 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 38-year-old white American man photographed in a clean, minimalist Portland kitchen or bathroom with visible recycling bins and a reusable grocery bag hanging by the door. He is around 6'0", lean and casually fit. His hair is dark brown with early gray at the temples. A short, well-maintained beard with visible gray. Crow's feet at the corners of his eyes. He is wearing a Patagonia fleece in moss green, slim organic cotton chinos, and worn leather boots.
+A 38-year-old white American man standing in his clean, minimalist Portland bathroom, facing the camera with a relaxed, natural smile. He is around 6'0", lean and casually fit. Dark brown hair with early gray at the temples, slightly overgrown. A short, well-maintained beard with visible gray threading. Crow's feet at the corners of his eyes. He is wearing a Patagonia fleece in moss green and slim organic cotton chinos — he has stepped into the bathroom still dressed for the day.
 
-He is holding the **RANVOO AirJet X5 Electric Toothbrush** up at eye level, rotating it slightly to examine it — the posture of someone comparing it against a mental checklist. The brush has a sleek, matte-white cylindrical body with a minimalist silhouette — no flashy chrome, no aggressive styling. A thin matte-black accent band separates the upper and lower handle sections. The replaceable brush head is white with a compact, rounded profile. A small USB-C charging port is visible at the base of the handle — no proprietary cable. The RANVOO logo is printed in small, clean sans-serif type on the lower handle. The overall aesthetic is Muji-like: intentional restraint. A TerraCycle recycling envelope is visible on the counter behind him.
+He is brushing his teeth or holding the **RANVOO AirJet X5 Electric Toothbrush** raised naturally to his mouth. No charger, no cables visible anywhere in the frame — the brush alone. The brush has a sleek matte-white cylindrical body with intentional minimalist design — no chrome, no aggressive styling. A thin matte-black accent band separates the upper and lower sections. The replaceable white brush head has a compact, rounded profile. The RANVOO logo printed in small clean sans-serif on the lower handle. His grip is light and relaxed — the easy one-handed hold of someone comfortable with the object.
 
-**Lighting:** Soft, diffused Pacific Northwest overcast light. Cool, slightly muted color palette. Outdoor or near-window.
+The bathroom is clean and intentional: white surfaces, no clutter, a small potted plant on the windowsill. Nothing branded or commercial visible in the background.
 
-**Expression:** Thoughtful and principled — the expression of someone who calculated something before deciding. Calm conviction, not performative environmentalism.
+**Lighting:** Soft, diffused Pacific Northwest overcast light through a bathroom window. Cool, muted palette. Calm and honest.
 
-**Camera:** 35mm, f/2.8. Slightly documentary. Feels like a profile piece in a sustainability magazine.
+**Expression:** Relaxed, principled smile toward the camera. The quiet satisfaction of a considered choice.
+
+**Camera:** 35mm, f/2.8. Documentary editorial. Feels like a sustainability magazine profile shot.
 
 ---
 

@@ -6,15 +6,17 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 22-year-old white American man photographed in a cramped but personality-filled college apartment bathroom or dorm-style room in Nashville. He is around 5'10", lean without being particularly athletic. Slightly underdeveloped jawline, the last traces of teen acne fading on his chin. His hair is medium-length, slightly overgrown. A small tattoo is barely visible on his forearm. He is wearing a faded band tee, joggers, and slides.
+A 22-year-old white American man standing in his cramped Nashville college apartment bathroom, facing the camera with a relaxed, easy grin. He is around 5'10", lean. Slightly underdeveloped jawline, the last traces of teen acne fading on his chin. Medium-length hair, slightly overgrown. A small tattoo barely visible on his forearm. He is wearing a faded band tee and joggers — morning routine, no effort made.
 
-He is holding the **Philips Sonicare 4100 Series in Rose** loosely at his side or raising it toward the mirror with a grin — the way someone holds a product they just unboxed and are genuinely pleased with. The brush has a soft blush-pink body with a smooth matte finish — a warm dusty rose, not hot pink. The lower handle portion has a slightly darker rose rubberized grip zone. The brush head is white with soft rounded bristles. A small teal LED dot near the top indicates the BrushSync sensor. The Philips and Sonicare logos are printed in light gray. The charging base — a small flat disc in matching white — is on the bathroom counter beside an open Amazon shipping box, the protective insert still visible.
+He is brushing his teeth or holding the **Philips Sonicare 4100 Series in Rose** raised to his mouth, smiling casually around it or looking directly into the camera with a relaxed grin. No charger, no cables, no box visible in the frame — the brush alone. The brush has a soft blush-pink body with a smooth matte finish — warm dusty rose, not hot pink. A slightly darker rose rubberized grip zone on the lower handle. White brush head with soft rounded bristles. A small teal BrushSync LED dot near the top. Philips and Sonicare logos in light gray on the shaft. His grip is completely relaxed — the unconscious hold of someone mid-routine who happens to be smiling at themselves in the mirror.
 
-**Lighting:** Warm, slightly yellow bathroom light. A string light visible in the doorframe behind him. Feels real and lived-in, not styled.
+The bathroom behind him is lived-in: slightly cluttered counter, a string light in the doorframe, warm yellow-toned light. Real, not styled.
 
-**Expression:** Casual, slightly goofy, at ease — like someone about to film a TikTok. Not performing — just existing.
+**Lighting:** Warm, slightly yellow bathroom light. Intimate and casual. iPhone-realistic color rendering.
 
-**Camera:** Shot on iPhone aesthetic — 26mm equivalent, slight digital sharpness. Could be a TikTok screenshot or a candid. That is the point.
+**Expression:** Easy, unposed grin toward the camera. The expression of someone who likes what they see in the mirror.
+
+**Camera:** iPhone aesthetic — 26mm equivalent, slight digital sharpness. Feels like a mirror selfie or a TikTok frame.
 
 ---
 

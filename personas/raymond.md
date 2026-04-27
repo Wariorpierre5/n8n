@@ -6,13 +6,15 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 61-year-old Black American man photographed in a Minneapolis home bathroom or bedroom — neat, warm, and organized with the deliberate tidiness of someone following a medical protocol. He is around 6'0", with a build that was once more athletic and is now slightly softened. His hair is closely cropped, fully silver-white. His face carries deep-set eyes with genuine warmth, pronounced lines between his brows. A thin, barely visible scar near his collarbone — the cardiac catheterization entry point, partially visible above his collar. He does not hide it.
+A 61-year-old Black American man standing in his Minneapolis bathroom, facing the camera with a quiet, determined smile. He is around 6'0", with a build that was once more athletic and is now slightly softened. Closely cropped silver-white hair. Deep-set eyes with genuine warmth. Pronounced lines between his brows. A thin, barely visible scar near his collarbone — the cardiac catheterization entry point, partially visible above his collar. He does not hide it. He is wearing a neat navy plaid flannel shirt, tucked in — his morning routine is deliberate and unhurried.
 
-He is wearing a neat flannel shirt in navy plaid, tucked into dark khakis. He holds the **Philips Sonicare ProtectiveClean 6500 Electric Toothbrush** with both hands in a deliberate, methodical way — the grip of a man following doctor's orders precisely. The brush body is clean white with a premium soft-touch finish and a deep navy blue accent panel running along two-thirds of the handle — a slightly more authoritative color than the lighter blue of the 5300. A 3-zone BrushSync pressure sensor LED is visible near the top in teal. The brush head is white with medium-density bristles and a navy BrushSync indicator ring. "ProtectiveClean 6500" is printed in gray on the white upper shaft. On the bathroom counter beside him: the white charging travel case with a UV sanitizer lid slightly open, glowing with a faint blue UV light inside — and a printed University of Glasgow study abstract partially visible beneath it.
+He is brushing his teeth or holding the **Philips Sonicare ProtectiveClean 6500 Electric Toothbrush** raised steadily to his mouth. No charger, no cables, no travel case visible anywhere in the frame — the brush alone. The brush body is clean white with a premium soft-touch finish and a deep navy blue accent panel running along two-thirds of the handle. A 3-zone BrushSync pressure sensor LED near the top in teal. White brush head with medium-density bristles and a navy BrushSync indicator ring at the base. "ProtectiveClean 6500" printed in gray on the white upper shaft. His grip is deliberate and methodical — steady hold, the posture of a man executing a medical protocol with full intention.
 
-**Lighting:** Warm afternoon indoor light. Comfortable, trustworthy domestic environment. A family photo is blurred in the background.
+The bathroom is neat and uncluttered: white tile, clear counter, a single family photo softly blurred in the background mirror reflection.
 
-**Expression:** Serious, methodical, and quietly determined. The expression of a man who has been given a second chance and is not taking it lightly. Not fearful — focused.
+**Lighting:** Warm morning indoor light. Trustworthy, calm, and dignified tone.
+
+**Expression:** Quiet, direct smile toward the camera. The expression of a man who has been given a second chance and is not wasting it.
 
 **Camera:** 50mm, f/2.5. Documentary portrait. Real, dignified, unhurried.
 

@@ -6,15 +6,17 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 58-year-old Black American woman photographed in a Houston home environment — a warm living room or kitchen with the practical tidiness of someone who manages a household and multiple medications. She is medium height, around 5'6", with a full, sturdy build. Her hair is natural, in loose twists with a few silver strands at the roots. Her skin is deep warm brown. Reading glasses on a beaded chain around her neck. A medication organizer is visible on the kitchen counter behind her.
+A 58-year-old Black American woman standing in her Houston bathroom, facing the camera with a calm, resolute smile. She is medium height, around 5'6", with a full, sturdy build. Natural hair in loose twists with silver strands at the roots. Deep warm brown skin. Reading glasses pushed up on her forehead. She is wearing a neat button-down shirt in deep burgundy and comfortable slacks — morning routine, unhurried.
 
-She is dressed in a neat button-down shirt in deep burgundy, comfortable slacks, and flat shoes. She holds the **Philips Sonicare ProtectiveClean 5300 Electric Toothbrush** in one hand at mid-chest level, reading the side of the box with her glasses on. The brush body is clean white with a soft sky-blue accent panel along the lower half of the handle. A teal LED pressure sensor indicator is visible near the top of the handle. The brush head is white with medium-density bristles and a BrushSync color-coded replacement ring at the base in pale blue. The handle has a slightly textured grip zone in the blue section. "ProtectiveClean" and the Philips logo are printed cleanly in gray on the white upper portion. Beside her on the counter: the white oval charging base and a printed medical handout partially visible.
+She is brushing her teeth or holding the **Philips Sonicare ProtectiveClean 5300 Electric Toothbrush** raised to her mouth, smiling gently around it. No charger, no cables visible anywhere in the frame — the brush alone. The brush body is clean white with a soft sky-blue accent panel along the lower half of the handle. A teal LED pressure sensor indicator near the top. White brush head with medium-density bristles and a pale blue BrushSync indicator ring at the base. "ProtectiveClean" and the Philips logo printed cleanly in gray on the white upper shaft. Her grip is steady and confident — four fingers around the blue grip zone, thumb resting naturally on the side.
 
-**Lighting:** Warm indoor lighting, afternoon. Lived-in but organized home environment. Grounding and trustworthy.
+The bathroom is warm and tidy: beige or white tile, clear counter, nothing extraneous visible in frame.
 
-**Expression:** Measured, attentive, slightly weary but determined. The expression of someone who takes her health seriously because she has to.
+**Lighting:** Warm indoor morning light. Grounding and trustworthy tone.
 
-**Camera:** 50mm, f/2.5. Documentary portrait style. Real and dignified.
+**Expression:** Calm, direct smile toward the camera. The quiet determination of someone managing her health with intention.
+
+**Camera:** 50mm, f/2.5. Documentary portrait. Real and dignified.
 
 ---
 

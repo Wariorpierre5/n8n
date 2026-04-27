@@ -6,19 +6,17 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 68-year-old white American woman photographed in a sunny Arizona kitchen or living room — warm terracotta tones, a cactus visible on the windowsill. She is petite, around 5'4", with a slightly rounded posture from years of hospital work. Her hair is fully silver-white, cut short in a practical but well-maintained style — blow-dried, not fussed over.
+A 68-year-old white American woman standing in her sunny Phoenix bathroom, facing the camera with a warm, genuine smile. She is petite, around 5'4", with a slightly rounded posture. Her hair is fully silver-white, cut short and neatly blow-dried. Deep smile lines, sun-spotted skin, bright blue sharp eyes. She is wearing a soft floral blouse in muted pinks and blues and pressed beige slacks — part of her morning routine.
 
-Her face carries the full texture of a life lived outdoors in the Southwest: deep smile lines, sun-spotted skin on her forearms and décolletage, visible veins on her hands. Her eyes are bright blue and sharp. She is wearing reading glasses pulled down to examine the object in her hands.
+She is brushing her teeth or holding the **Philips Sonicare 4100 Rechargeable Electric Toothbrush** raised naturally to her mouth. No charger, no cables visible anywhere in the frame — the brush alone. The brush has a clean minimalist white body with a smooth oval cross-section that fits naturally in an arthritic grip. A slim teal accent stripe along the lower handle. A small teal LED pressure sensor dot near the top. White brush head with soft rounded bristles. Philips and Sonicare logos in light gray on the white shaft. Her hands are prominent in the frame — the swollen knuckles and careful but confident grip of someone who has found a tool that genuinely works for her.
 
-She is dressed in a soft floral blouse in muted pinks and blues, pressed beige slacks, and comfortable walking shoes. Her hands, visible and prominent in the frame, show the swollen knuckles and careful grip of someone managing arthritis.
+The bathroom is warm and personal: white tile, soft natural light, a single cactus on the windowsill visible in the soft background.
 
-She is holding the **Philips Sonicare 4100 Rechargeable Electric Toothbrush** with both hands — her arthritic fingers wrapped carefully around the ergonomic handle. The brush has a clean, minimalist white body with a smooth, slightly oval cross-section that fits naturally in a compromised grip. A slim teal accent stripe runs along the lower portion of the handle. The BrushSync pressure sensor indicator is a small teal LED dot near the top. The brush head is white with soft rounded bristles. The Philips and Sonicare logos are printed in light gray on the white handle. The charging base — a flat white disc — is visible on the counter beside her. The brush has a notably lightweight, non-intimidating design.
+**Lighting:** Warm soft Arizona morning sunlight through a bathroom window. Slightly golden tone. Intimate and real.
 
-**Lighting:** Warm, soft Arizona morning sunlight. Slightly overexposed white walls. Comfortable, uncluttered domestic environment.
+**Expression:** Warm, direct smile toward the camera. Satisfied and capable — not frail, not confused.
 
-**Expression:** Thoughtful and careful — examining something with the analytical eye of a retired clinician. Not confused, not frail. Sharp and deliberate.
-
-**Camera:** 50mm, f/2.8, natural light. Documentary-style portrait.
+**Camera:** 50mm, f/2.8, natural light. Documentary portrait. Dignified and unhurried.
 
 ---
 

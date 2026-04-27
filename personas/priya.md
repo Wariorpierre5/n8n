@@ -6,17 +6,17 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 31-year-old South Asian American woman, visibly pregnant (approximately 20–24 weeks), photographed in a clean, modern Seattle apartment bathroom or standing in natural light near a window. She is around 5'5", with a naturally slim frame now carrying the full round bump of mid-pregnancy. Her skin is warm medium-brown with the characteristic pregnancy glow — slightly brighter complexion, fuller cheeks.
+A 31-year-old South Asian American woman, visibly pregnant at approximately 20–24 weeks, standing in her clean modern Seattle apartment bathroom, facing the camera with a calm, reassured smile. She is around 5'5" with the round bump of mid-pregnancy clearly visible. Warm medium-brown skin with a pregnancy glow. Thick dark brown wavy hair worn loose or in a casual low bun. A small gold nose stud. She is wearing a fitted Lululemon top with high-waisted maternity leggings.
 
-Her hair is thick, dark brown, and wavy — worn loose over her shoulders or in a casual low bun. A small gold nose stud. She is dressed in a soft sage maternity lounge set or a fitted Lululemon top with high-waisted leggings.
+She is brushing her teeth or holding the **Oral-B Pro 1000 Electric Toothbrush** raised gently to her mouth, her free hand resting naturally on her belly. No charger, no cables visible in the frame — the brush alone. The brush has a clean white cylindrical body with a dark navy blue grip band in the center third. The round oscillating brush head is white with blue and white mixed bristles in a circular arrangement. A small green LED indicator near the power button on the front face. The Oral-B logo in blue on the white handle. Her grip is gentle but secure — relaxed fingers, the instinctive care of a pregnant woman handling anything near her face.
 
-She is holding the **Oral-B Pro 1000 Electric Toothbrush** gently in one hand at chest height, the other hand resting on her belly. The brush has a clean white body with a rounded cylindrical handle and a distinct dark navy blue grip band in the center third for secure hold. The oscillating round brush head is white with blue and white mixed bristles in a circular arrangement. A small green LED indicator light is visible near the power button on the front face. The Oral-B logo is printed in blue on the white handle. The brush has a slightly heavier, more substantial feel than Sonicare models — visible in how she holds it with a confident full grip.
+The bathroom is white tile, minimal, with soft light — nothing on the counter visible in frame.
 
-**Lighting:** Soft, cool Seattle morning light. White tile bathroom with a few carefully chosen products on the counter. A pregnancy vitamin bottle visible.
+**Lighting:** Soft, cool Seattle morning light through a frosted window. Clean and calm. No harsh shadows.
 
-**Expression:** Slightly worried but actively problem-solving — the expression of someone who just got information from their doctor and is now researching the right response.
+**Expression:** Warm, composed smile directly at the camera — the expression of someone who acted on her doctor's advice and feels good about it.
 
-**Camera:** 50mm, f/2.0. Intimate, personal. Feels like a moment, not a shoot.
+**Camera:** 50mm, f/2.0. Intimate and personal. Feels like a real moment.
 
 ---
 

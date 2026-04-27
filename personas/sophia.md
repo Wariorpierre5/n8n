@@ -6,15 +6,17 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 45-year-old Latina woman photographed in a Chicago apartment bathroom — urban, clean, and aesthetically considered. She is around 5'7", with a slim, toned build. Her hair is dark brown, straight and glossy, worn down to her collarbones. Her skin is warm olive. She is wearing a polished blazer with the sleeves pushed up. Her Invisalign case is open on the counter, clear trays visible inside.
+A 45-year-old Latina woman standing in her Chicago apartment bathroom, facing the camera with a poised, appearance-aware smile. She is around 5'7", slim and toned. Dark brown hair, straight and glossy, worn down to her collarbones. Warm olive skin with light makeup. She is wearing a polished blazer with the sleeves pushed up — she is getting ready before leaving for work.
 
-She is holding the **Oral-B iO 9 Electric Toothbrush** with confident familiarity — not unboxing it, but using it as part of an established ritual. The handle is a premium pearl white with a smooth, tactile soft-touch matte coating and a polished chrome accent ring at the base. The front face features a small circular LED display showing the selected cleaning mode ("Whitening" visible on screen). The iO magnetic drive brush head is round and white with densely packed micro-bristles. A 3-color LED ring around the base of the head glows green — indicating correct pressure. The Oral-B logo and "iO Series 9" are printed in silver-gray on the white handle. On the marble counter beside her: the premium magnetic charging travel case in white, the Invisalign case, and a UV sanitizer pod.
+She is brushing her teeth or holding the **Oral-B iO 9 Electric Toothbrush** raised naturally to her mouth, smiling carefully — she is mid-Invisalign treatment and conscious of her smile in the best way. No charger, no cables, no case visible anywhere in the frame — the brush alone. The handle is premium pearl white with a smooth soft-touch matte coating and a polished chrome accent ring at the base. The front face features a small circular LED display showing "Whitening" mode. The round iO brush head is white with densely packed micro-bristles. A 3-color LED ring at the base of the head glows green — correct pressure. Oral-B logo and "iO Series 9" in silver-gray on the white handle. Her grip is practiced and confident — this is a daily ritual, not a first use.
 
-**Lighting:** Warm, directional bathroom vanity light softened with natural window light. The mirror reflects a clean, organized life.
+The bathroom is marble and clean: frameless mirror, uncluttered counter, warm vanity lighting. Nothing extraneous visible in frame.
 
-**Expression:** Poised and appearance-aware — she is investing in her smile and she is serious about protecting that investment. A slight self-consciousness about the braces mixed with visible excitement about the end result.
+**Lighting:** Warm directional vanity light softened by natural window light. Editorial and slightly elevated — her category demands it.
 
-**Camera:** 85mm, f/1.8. Beauty editorial meets real life. Slightly more polished than the other personas — her category demands it.
+**Expression:** Poised, intentional smile toward the camera. Confident in the investment she is making in her smile.
+
+**Camera:** 85mm, f/1.8. Beauty editorial meets real life. The most polished shot of the ten personas.
 
 ---
 

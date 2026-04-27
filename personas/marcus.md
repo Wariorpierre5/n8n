@@ -6,11 +6,11 @@
 
 **Avatar Prompt (Image Generation):**
 
-A confident, polished Black American man in his early 50s, seated at the head of a glass conference table or standing near a floor-to-ceiling office window overlooking Atlanta's midtown skyline. He is approximately 6'1", lean but not gym-obsessed — the build of someone who walks a lot, plays golf on weekends, and watches what he eats at client dinners.
+A confident, polished Black American man in his early 50s, standing in a luxury hotel bathroom or his Atlanta penthouse en-suite — marble countertop, frameless mirror, warm recessed lighting. He is approximately 6'1", lean but not gym-obsessed — the build of someone who walks a lot, plays golf on weekends, and watches what he eats at client dinners.
 
-His hair is closely cropped with a precise fade, salt-and-pepper at the temples — a deliberate grooming choice that signals experience rather than hiding age. His skin is deep mahogany with a healthy sheen. A few lines at the corners of his eyes when he smiles. His jaw is clean-shaven and structured.
+His hair is closely cropped with a precise fade, salt-and-pepper at the temples. His skin is deep mahogany with a healthy sheen. A few lines at the corners of his eyes when he smiles. His jaw is clean-shaven and structured. He wears a white dress shirt, sleeves rolled to the forearm, collar open — end of a long day, still composed.
 
-He wears a charcoal slim-fit suit, no tie, collar slightly open — boardroom-ready but not stiff. A silver watch on his left wrist, understated and expensive. Cufflinks visible. He is holding a phone or a pen, not looking at it — looking directly into the lens with quiet authority.
+He is holding the **Philips Sonicare DiamondClean Prestige 9900** in his right hand, examining it with calm appreciation rather than using it. The brush body is a premium pearl white with a soft-touch matte finish and a polished chrome accent band near the base. The DiamondClean brush head is white with fine black bristle tufts arranged in a diamond pattern. The handle tapers elegantly toward the top. Beside him on the marble counter sits the signature **glass charging dock** — a crystal-clear cylindrical vessel with a brushed silver wireless charging base, glowing with a faint white light. The Philips logo and "Sonicare" are embossed in silver on the handle.
 
 **Lighting:** Dramatic office window light, soft shadows on one side of his face. Cool blue-gray ambient tone from the city visible behind him.
 

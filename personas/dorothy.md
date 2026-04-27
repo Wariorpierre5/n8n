@@ -8,9 +8,11 @@
 
 A 68-year-old white American woman photographed in a sunny Arizona kitchen or living room — warm terracotta tones, a cactus visible on the windowsill. She is petite, around 5'4", with a slightly rounded posture from years of hospital work. Her hair is fully silver-white, cut short in a practical but well-maintained style — blow-dried, not fussed over.
 
-Her face carries the full texture of a life lived outdoors in the Southwest: deep smile lines, sun-spotted skin on her forearms and décolletage, visible veins on her hands. Her eyes are bright blue and sharp — she has the alert, observant gaze of someone who spent 35 years assessing patients. She is wearing reading glasses pushed up on her forehead.
+Her face carries the full texture of a life lived outdoors in the Southwest: deep smile lines, sun-spotted skin on her forearms and décolletage, visible veins on her hands. Her eyes are bright blue and sharp. She is wearing reading glasses pulled down to examine the object in her hands.
 
-She is dressed in a soft floral blouse in muted pinks and blues, pressed beige slacks, and comfortable walking shoes. Her hands, visible and prominent in the frame, show the swollen knuckles and careful grip of someone managing arthritis. She is holding or examining a toothbrush packaging with her reading glasses pulled down.
+She is dressed in a soft floral blouse in muted pinks and blues, pressed beige slacks, and comfortable walking shoes. Her hands, visible and prominent in the frame, show the swollen knuckles and careful grip of someone managing arthritis.
+
+She is holding the **Philips Sonicare 4100 Rechargeable Electric Toothbrush** with both hands — her arthritic fingers wrapped carefully around the ergonomic handle. The brush has a clean, minimalist white body with a smooth, slightly oval cross-section that fits naturally in a compromised grip. A slim teal accent stripe runs along the lower portion of the handle. The BrushSync pressure sensor indicator is a small teal LED dot near the top. The brush head is white with soft rounded bristles. The Philips and Sonicare logos are printed in light gray on the white handle. The charging base — a flat white disc — is visible on the counter beside her. The brush has a notably lightweight, non-intimidating design.
 
 **Lighting:** Warm, soft Arizona morning sunlight. Slightly overexposed white walls. Comfortable, uncluttered domestic environment.
 

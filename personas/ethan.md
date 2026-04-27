@@ -6,11 +6,9 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 38-year-old white American man photographed outdoors in Portland — perhaps in his backyard near a raised garden bed and a compost bin, or in a clean, minimalist kitchen with visible recycling bins and a reusable grocery bag hanging by the door. He is around 6'0", lean and casually fit — the build of someone who cycles to work and does yoga on weekends, not someone who performs fitness.
+A 38-year-old white American man photographed in a clean, minimalist Portland kitchen or bathroom with visible recycling bins and a reusable grocery bag hanging by the door. He is around 6'0", lean and casually fit. His hair is dark brown with early gray at the temples. A short, well-maintained beard with visible gray. Crow's feet at the corners of his eyes. He is wearing a Patagonia fleece in moss green, slim organic cotton chinos, and worn leather boots.
 
-His hair is dark brown with early gray at the temples, slightly overgrown in an intentional way — he has had the same barber for 8 years. A short, well-maintained beard with visible gray threading through it. His skin is fair with outdoor color — slightly weathered from time spent outside. Crow's feet at the corners of his eyes from squinting in Pacific Northwest drizzle.
-
-He is wearing a Patagonia fleece in an earth tone, slim organic cotton chinos rolled once at the ankle, and worn leather boots that have been resoled twice. A canvas tote from a local Portland bookshop hangs from his shoulder. His phone, visible in his hand, has a Greenpeace sticker on the back.
+He is holding the **RANVOO AirJet X5 Electric Toothbrush** up at eye level, rotating it slightly to examine it — the posture of someone comparing it against a mental checklist. The brush has a sleek, matte-white cylindrical body with a minimalist silhouette — no flashy chrome, no aggressive styling. A thin matte-black accent band separates the upper and lower handle sections. The replaceable brush head is white with a compact, rounded profile. A small USB-C charging port is visible at the base of the handle — no proprietary cable. The RANVOO logo is printed in small, clean sans-serif type on the lower handle. The overall aesthetic is Muji-like: intentional restraint. A TerraCycle recycling envelope is visible on the counter behind him.
 
 **Lighting:** Soft, diffused Pacific Northwest overcast light. Cool, slightly muted color palette. Outdoor or near-window.
 

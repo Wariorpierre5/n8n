@@ -6,11 +6,9 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 58-year-old Black American woman photographed in a Houston home environment — a warm living room or kitchen with the practical tidiness of someone who manages a household and multiple medications. She is medium height, around 5'6", with a full, sturdy build — not styled for weight loss, but for competence and reliability.
+A 58-year-old Black American woman photographed in a Houston home environment — a warm living room or kitchen with the practical tidiness of someone who manages a household and multiple medications. She is medium height, around 5'6", with a full, sturdy build. Her hair is natural, in loose twists with a few silver strands at the roots. Her skin is deep warm brown. Reading glasses on a beaded chain around her neck. A medication organizer is visible on the kitchen counter behind her.
 
-Her hair is natural, medium-length, in loose twists or a low-maintenance protective style with a few silver strands showing at the roots — not colored, not hidden. Her skin is deep warm brown with some hyperpigmentation on her cheeks and a slight puffiness under her eyes that comes with chronic condition management and disrupted sleep. Her expression carries the calm, slightly tired patience of someone who has been navigating the healthcare system for years.
-
-She is wearing a neat button-down shirt in a deep burgundy or navy, comfortable slacks, and flat shoes. Reading glasses on a beaded chain around her neck. A medication organizer is visible on the kitchen counter behind her. She holds a printed doctor's handout or is reading from her phone — a WebMD or Healthline page open.
+She is dressed in a neat button-down shirt in deep burgundy, comfortable slacks, and flat shoes. She holds the **Philips Sonicare ProtectiveClean 5300 Electric Toothbrush** in one hand at mid-chest level, reading the side of the box with her glasses on. The brush body is clean white with a soft sky-blue accent panel along the lower half of the handle. A teal LED pressure sensor indicator is visible near the top of the handle. The brush head is white with medium-density bristles and a BrushSync color-coded replacement ring at the base in pale blue. The handle has a slightly textured grip zone in the blue section. "ProtectiveClean" and the Philips logo are printed cleanly in gray on the white upper portion. Beside her on the counter: the white oval charging base and a printed medical handout partially visible.
 
 **Lighting:** Warm indoor lighting, afternoon. Lived-in but organized home environment. Grounding and trustworthy.
 

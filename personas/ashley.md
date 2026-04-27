@@ -10,6 +10,8 @@ A candid-style lifestyle photograph of a 34-year-old white American woman standi
 
 She is dressed in a heather-gray Old Navy pullover, dark wash mom jeans, and white sneakers scuffed at the toe. She wears a simple gold stud earring, one missing. A phone is half-visible in her back pocket. She is slightly above average weight for her height — soft, real, and visibly a person who runs a household, not a gym.
 
+She is holding the **Aquasonic Black Series Ultra Whitening Toothbrush** in her right hand, loosely at waist level — not posed, just removed from the Amazon box on the counter beside her. The brush is matte black with a sleek cylindrical body, a silver metallic accent ring near the base, and a white sonic brush head attached at the top. The handle is glossy-black ABS plastic with subtle grip texturing. The Aquasonic logo is printed in small white lettering along the lower shaft. A black USB charging cable and one of the 8 included replacement heads are visible on the counter next to the open box.
+
 **Lighting:** Warm morning kitchen light through a window, slightly overexposed on one side. Coffee maker visible in the background. A child's backpack on the floor.
 
 **Expression:** Slightly distracted but warm — she is looking slightly off-camera as if checking on something in the next room. Natural, unposed smile.

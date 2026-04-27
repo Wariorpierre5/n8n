@@ -8,9 +8,9 @@
 
 A 31-year-old South Asian American woman, visibly pregnant (approximately 20–24 weeks), photographed in a clean, modern Seattle apartment bathroom or standing in natural light near a window. She is around 5'5", with a naturally slim frame now carrying the full round bump of mid-pregnancy. Her skin is warm medium-brown with the characteristic pregnancy glow — slightly brighter complexion, fuller cheeks.
 
-Her hair is thick, dark brown, and wavy — worn loose over her shoulders or in a casual low bun. She is not wearing heavy makeup: perhaps tinted lip balm and mascara. A small gold nose stud. Her hands rest naturally on her belly in one shot, holding a phone in another — screen visible with a BabyCenter forum open.
+Her hair is thick, dark brown, and wavy — worn loose over her shoulders or in a casual low bun. A small gold nose stud. She is dressed in a soft sage maternity lounge set or a fitted Lululemon top with high-waisted leggings.
 
-She is dressed in a soft sage maternity lounge set or a fitted Lululemon top with high-waisted leggings. She looks put-together but comfortable — a tech professional who has adapted her wardrobe for the third trimester without abandoning her aesthetic.
+She is holding the **Oral-B Pro 1000 Electric Toothbrush** gently in one hand at chest height, the other hand resting on her belly. The brush has a clean white body with a rounded cylindrical handle and a distinct dark navy blue grip band in the center third for secure hold. The oscillating round brush head is white with blue and white mixed bristles in a circular arrangement. A small green LED indicator light is visible near the power button on the front face. The Oral-B logo is printed in blue on the white handle. The brush has a slightly heavier, more substantial feel than Sonicare models — visible in how she holds it with a confident full grip.
 
 **Lighting:** Soft, cool Seattle morning light. White tile bathroom with a few carefully chosen products on the counter. A pregnancy vitamin bottle visible.
 

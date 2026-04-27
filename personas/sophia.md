@@ -6,11 +6,9 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 45-year-old Latina woman photographed in a Chicago apartment bathroom or near a vanity mirror — urban, clean, and aesthetically considered. She is around 5'7", with a slim, toned build — health club membership visible in her posture and the definition in her arms. She is mid-Invisalign treatment: her Invisalign case is on the bathroom counter, trays visible inside.
+A 45-year-old Latina woman photographed in a Chicago apartment bathroom — urban, clean, and aesthetically considered. She is around 5'7", with a slim, toned build. Her hair is dark brown, straight and glossy, worn down to her collarbones. Her skin is warm olive. She is wearing a polished blazer with the sleeves pushed up. Her Invisalign case is open on the counter, clear trays visible inside.
 
-Her hair is dark brown, straight and glossy, worn down to her collarbones — a blowout that is two days old, slightly imperfect at the roots. Her skin is warm olive with light concealer under her eyes and a tinted moisturizer. She is wearing a form-fitting black workout top or a polished blazer with the sleeves pushed up — she has just come from the gym or is about to leave for work.
-
-Her teeth are visible in a careful, slightly self-conscious smile — she is mid-treatment and aware of it. Her hand holds the Invisalign case or the Oral-B iO 9 box. On her wrist: a thin gold bracelet. On the counter: a curated collection of skincare, a Drybar product, and the Oral-B iO 9 charger.
+She is holding the **Oral-B iO 9 Electric Toothbrush** with confident familiarity — not unboxing it, but using it as part of an established ritual. The handle is a premium pearl white with a smooth, tactile soft-touch matte coating and a polished chrome accent ring at the base. The front face features a small circular LED display showing the selected cleaning mode ("Whitening" visible on screen). The iO magnetic drive brush head is round and white with densely packed micro-bristles. A 3-color LED ring around the base of the head glows green — indicating correct pressure. The Oral-B logo and "iO Series 9" are printed in silver-gray on the white handle. On the marble counter beside her: the premium magnetic charging travel case in white, the Invisalign case, and a UV sanitizer pod.
 
 **Lighting:** Warm, directional bathroom vanity light softened with natural window light. The mirror reflects a clean, organized life.
 

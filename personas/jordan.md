@@ -6,11 +6,11 @@
 
 **Avatar Prompt (Image Generation):**
 
-A 26-year-old biracial (Black/white) man photographed in a bright Austin apartment, standing at a kitchen counter next to a smoothie blender and an Oura Ring charger. He is lean and visibly athletic — not bodybuilder bulk but the functional fitness look of someone who does CrossFit, tracks macros, and cycles to work.
+A 26-year-old biracial (Black/white) man photographed in a bright Austin apartment, standing at a bathroom counter or kitchen island next to a smoothie blender and an Oura Ring charger. He is lean and visibly athletic — not bodybuilder bulk but the functional fitness look of someone who does CrossFit, tracks macros, and cycles to work.
 
-He is around 5'11" with defined arms visible under a fitted short-sleeve merino t-shirt in sage green. His hair is natural, medium-length, slightly compressed on one side — he has not brushed it yet this morning. A faint scar on his chin from an old sports injury. Clear skin with some post-workout flush. No jewelry except a thin black rubber band on his wrist.
+He is around 5'11" with defined arms visible under a fitted short-sleeve merino t-shirt in sage green. His hair is natural, medium-length, slightly compressed on one side. A faint scar on his chin. Clear skin with some post-workout flush. An Oura Ring on his right index finger. He is holding his phone in one hand, the Sonicare app open showing a 16-zone mouth map with color-coded brushing coverage data on screen.
 
-He is looking down at his phone — a Reddit thread visible on screen — or glancing up with a slightly skeptical, research-mode expression. He looks like someone who has already read three articles about whatever he is about to buy.
+In his other hand, he holds the **Philips Sonicare 7300 Series Electric Toothbrush** at eye level, inspecting it with focused curiosity. The handle is a sleek dark navy blue with a soft-touch rubberized grip along the lower two-thirds. A small rectangular LED display on the front shows the selected cleaning mode. The BrushSync brush head is white with a small color-coded indicator ring at the base in teal. A thin Bluetooth antenna indicator light glows subtly near the top of the handle. The "Sonicare" wordmark is printed in white along the shaft.
 
 **Lighting:** Bright, diffused morning natural light through large windows. Neutral tones. Clean counter with intentional objects: supplement bottles, a notebook, wireless earbuds.
 

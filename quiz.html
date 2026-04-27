@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Find Your Perfect Toothbrush — DailySmileCare Quiz</title>
-  <meta name="description" content="Answer 10 questions and get a personalized electric toothbrush recommendation from a dental expert." />
+  <meta name="description" content="Answer 10 quick questions and get your top 3 personalized toothbrush recommendations." />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f0f4ff; color: #1a1a2e; min-height: 100vh; display: flex; flex-direction: column; }
@@ -47,13 +47,19 @@
     .btn-next.visible { display: block; }
 
     /* Result */
-    .result-card { background: white; border-radius: 20px; box-shadow: 0 4px 32px rgba(37,99,235,0.12); padding: 40px 36px; width: 100%; max-width: 680px; animation: fadeUp 0.4s ease; }
-    .result-badge { display: inline-flex; align-items: center; gap: 6px; background: #dcfce7; color: #16a34a; font-size: 0.78rem; font-weight: 700; padding: 5px 12px; border-radius: 99px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 20px; }
-    .result-title { font-size: 1.7rem; font-weight: 900; color: #1a1a2e; margin-bottom: 6px; line-height: 1.3; }
-    .result-brand { font-size: 0.9rem; color: #2563eb; font-weight: 700; margin-bottom: 20px; }
-    .result-divider { border: none; border-top: 2px solid #f0f4ff; margin: 24px 0; }
-    .result-price { font-size: 2rem; font-weight: 900; color: #2563eb; margin-bottom: 4px; }
-    .result-price-sub { font-size: 0.85rem; color: #888; margin-bottom: 24px; }
+    .result-card { width: 100%; max-width: 680px; animation: fadeUp 0.4s ease; }
+    .pick-card { background: white; border-radius: 16px; box-shadow: 0 2px 16px rgba(37,99,235,0.08); padding: 24px 28px; margin-bottom: 16px; }
+    .pick-top { border: 2px solid #2563eb; box-shadow: 0 4px 24px rgba(37,99,235,0.16); }
+    .pick-rank { display: inline-flex; align-items: center; gap: 6px; font-size: 0.75rem; font-weight: 700; padding: 4px 12px; border-radius: 99px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .rank-1 { background: #2563eb; color: white; }
+    .rank-2 { background: #dbeafe; color: #1d4ed8; }
+    .rank-3 { background: #f0f4ff; color: #64748b; }
+    .pick-name { font-size: 1.15rem; font-weight: 800; color: #1a1a2e; margin-bottom: 2px; }
+    .pick-brand { font-size: 0.82rem; color: #888; }
+    .pick-price { font-size: 1.5rem; font-weight: 900; color: #2563eb; }
+    .pick-reasons { list-style: none; display: flex; flex-direction: column; gap: 7px; margin-bottom: 18px; }
+    .pick-reasons li { display: flex; align-items: flex-start; gap: 8px; font-size: 0.88rem; color: #444; line-height: 1.4; }
+    .pick-reasons li::before { content: "✦"; color: #2563eb; font-size: 0.7rem; margin-top: 3px; flex-shrink: 0; }
 
     .why-title { font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #666; margin-bottom: 12px; }
     .why-list { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
@@ -167,12 +173,11 @@ const QUESTIONS = [
   },
   {
     icon: "📱", number: "Question 4 of 10",
-    text: "How important is app connectivity to you?",
-    sub: "Smart brushes connect to your phone to track your brushing zones in real time.",
+    text: "Voulez-vous profiter des dernières technologies ?",
+    sub: "Smart brushes connect to an app for real-time zone coaching and AI tracking.",
     options: [
-      { icon:"🔥", label:"Essential", desc:"I want real-time data and brushing coaching", key:"app", val:"yes" },
-      { icon:"👍", label:"Nice to have", desc:"I'd use it occasionally if it's there", key:"app", val:"maybe" },
-      { icon:"🚫", label:"Not important", desc:"I just want a great brush, no phone needed", key:"app", val:"no" },
+      { icon:"✅", label:"Oui", desc:"Je veux les dernières innovations", key:"app", val:"yes" },
+      { icon:"🚫", label:"Non", desc:"Une brosse efficace sans application me convient", key:"app", val:"no" },
     ]
   },
   {
@@ -195,14 +200,14 @@ const QUESTIONS = [
     ]
   },
   {
-    icon: "⚡", number: "Question 7 of 10",
-    text: "Any technology preference?",
-    sub: "Sonic and oscillating are clinically comparable — it comes down to feel.",
+    icon: "👤", number: "Question 7 of 10",
+    text: "Dans quelle tranche d'âge vous trouvez-vous ?",
+    sub: "Certain brushes are better suited to specific age groups and dexterity levels.",
     options: [
-      { icon:"🔵", label:"Sonic (Philips Sonicare)", desc:"High-frequency vibration, lighter feel", key:"technology", val:"sonic" },
-      { icon:"🟠", label:"Oscillating (Oral-B)", desc:"Rotating round head, dentist-office feel", key:"technology", val:"oscillating" },
-      { icon:"🌿", label:"Eco-friendly (RANVOO AirJet)", desc:"Air-driven tech, 47% less plastic", key:"technology", val:"airjet" },
-      { icon:"🤷", label:"No preference", desc:"Show me the best match regardless", key:"technology", val:"any" },
+      { icon:"🧒", label:"25 ans et moins", desc:"Jeune adulte, premiers soins dentaires autonomes", key:"age", val:"young" },
+      { icon:"🧑", label:"25 à 50 ans", desc:"Adulte actif, attentes équilibrées", key:"age", val:"adult" },
+      { icon:"👴", label:"50 à 75 ans", desc:"Priorité au confort et à la facilité d'utilisation", key:"age", val:"senior" },
+      { icon:"🧓", label:"75 et plus", desc:"Douceur, prise en main simple, recommandation médicale", key:"age", val:"elderly" },
     ]
   },
   {
@@ -358,7 +363,6 @@ function applyScores() {
     if (q.options[0].key === "app") {
       if (ans === "yes" && p.app) delta += 5;
       if (ans === "no" && !p.app) delta += 2;
-      if (ans === "maybe" && p.app) delta += 2;
     }
     if (q.options[0].key === "battery") {
       if (ans === "long" && p.battery >= 3) delta += 3;
@@ -369,11 +373,27 @@ function applyScores() {
       if (ans === "yes" && p.travel) delta += 4;
       if (ans === "no" && !p.travel) delta += 1;
     }
-    if (q.options[0].key === "technology") {
-      if (ans === "sonic" && p.technology === "sonic") delta += 5;
-      if (ans === "oscillating" && p.technology === "oscillating") delta += 5;
-      if (ans === "airjet" && p.technology === "airjet") delta += 10;
-      if (ans === "any") delta += 1;
+    if (q.options[0].key === "age") {
+      if (ans === "young") {
+        if (p.price <= 60) delta += 3;
+        if (p.id === 17 || p.id === 2) delta += 2;
+        if (p.app) delta += 1;
+      }
+      if (ans === "adult") {
+        if (p.price >= 40 && p.price <= 200) delta += 2;
+        if (p.sensitive) delta += 1;
+      }
+      if (ans === "senior") {
+        if (p.medical.includes("senior") || p.medical.includes("arthritis")) delta += 5;
+        if (p.sensitive) delta += 2;
+        if (p.modes <= 3) delta += 1;
+      }
+      if (ans === "elderly") {
+        if (p.medical.includes("senior") || p.medical.includes("arthritis")) delta += 8;
+        if (p.modes === 1) delta += 3;
+        if (p.price <= 80) delta += 2;
+        if (p.sensitive) delta += 2;
+      }
     }
     if (q.options[0].key === "modes") {
       if (ans === "simple" && p.modes <= 1) delta += 4;
@@ -389,7 +409,7 @@ function applyScores() {
       const budgets = { "50": [0,50], "100": [50,100], "150": [100,150], "200": [150,200], "200plus": [200,1000] };
       const [min, max] = budgets[ans];
       if (p.price >= min && p.price <= max) delta += 6;
-      if (p.price < min) delta -= 2;
+      else if (p.price > max && p.price <= max * 1.5) delta += 3;
     }
 
     scores[p.id] += delta;
@@ -402,28 +422,34 @@ function showResult() {
   document.getElementById("progressLabel").textContent = "Complete!";
   document.getElementById("quizCard").classList.add("hidden");
 
-  const best = PRODUCTS.reduce((a, b) => scores[a.id] >= scores[b.id] ? a : b);
-  const reasons = REASONS[best.id];
-  const features = FEATURES[best.id];
+  const sorted = [...PRODUCTS].sort((a, b) => scores[b.id] - scores[a.id]);
+  const top3 = sorted.slice(0, 3);
+  const rankLabels = ["🥇 #1 Best Match", "🥈 #2 Great Choice", "🥉 #3 Also Consider"];
+  const rankClasses = ["rank-1", "rank-2", "rank-3"];
 
   const card = document.getElementById("resultCard");
   card.classList.remove("hidden");
   card.innerHTML = `
-    <div class="result-badge">✦ Your Perfect Match</div>
-    <div class="result-title">${best.name}</div>
-    <div class="result-brand">${best.brand} · Based on your 10 answers</div>
-    <hr class="result-divider" />
-    <div class="result-price">$${best.price.toFixed(2)}</div>
-    <div class="result-price-sub">One-time purchase · Amazon Prime eligible</div>
-    <div class="why-title">Why it's right for you</div>
-    <ul class="why-list">
-      ${reasons.map(r => `<li>${r}</li>`).join("")}
-    </ul>
-    <div class="why-title">Key features</div>
-    <div class="features-grid">
-      ${features.map(([icon, label]) => `<div class="feature-chip"><span>${icon}</span>${label}</div>`).join("")}
+    <div style="text-align:center;margin-bottom:28px;">
+      <div style="font-size:2rem;margin-bottom:10px;">🦷</div>
+      <div style="font-size:1.45rem;font-weight:900;color:#1a1a2e;margin-bottom:6px;">Your Top 3 Picks</div>
+      <div style="font-size:0.9rem;color:#666;">Based on your answers — personalized for your exact profile</div>
     </div>
-    <a class="btn-amazon" href="${best.url}" target="_blank" rel="noopener">👉 Check Price on Amazon — $${best.price.toFixed(2)}</a>
+    ${top3.map((p, i) => {
+      const reasons = REASONS[p.id].slice(0, 3);
+      const features = FEATURES[p.id];
+      const isTop = i === 0;
+      return `<div class="pick-card${isTop ? " pick-top" : ""}">
+        <div class="pick-rank ${rankClasses[i]}">${rankLabels[i]}</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;margin-bottom:14px;">
+          <div><div class="pick-name">${p.name}</div><div class="pick-brand">${p.brand}</div></div>
+          <div class="pick-price">$${p.price.toFixed(2)}</div>
+        </div>
+        <ul class="pick-reasons">${reasons.map(r => `<li>${r}</li>`).join("")}</ul>
+        ${isTop ? `<div class="features-grid" style="margin-bottom:20px;">${features.map(([ic, lb]) => `<div class="feature-chip"><span>${ic}</span>${lb}</div>`).join("")}</div>` : ""}
+        <a class="btn-amazon" href="${p.url}" target="_blank" rel="noopener">${isTop ? "👉 Check Price on Amazon" : "→ Check Price"} — $${p.price.toFixed(2)}</a>
+      </div>`;
+    }).join("")}
     <button class="btn-retry" onclick="resetQuiz()">↩ Retake the quiz</button>
     <p class="disclaimer">As an Amazon Associate, DailySmileCare earns from qualifying purchases.</p>`;
 }

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find Your Perfect Toothbrush — DailySmileCare Quiz</title>
+  <meta name="description" content="Answer 10 questions and get a personalized electric toothbrush recommendation from a dental expert." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f0f4ff; color: #1a1a2e; min-height: 100vh; display: flex; flex-direction: column; }
+    a { color: #2563eb; }
+    .nav { background: #1a1a2e; padding: 14px 24px; display: flex; align-items: center; gap: 12px; }
+    .nav a { color: white; font-weight: 700; font-size: 1rem; text-decoration: none; }
+    .nav span { color: #aaa; }
+
+    .quiz-wrap { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 40px 20px 60px; }
+
+    /* Progress */
+    .progress-bar-wrap { width: 100%; max-width: 620px; margin-bottom: 32px; }
+    .progress-label { display: flex; justify-content: space-between; font-size: 0.82rem; color: #666; margin-bottom: 8px; }
+    .progress-track { background: #dde3f0; border-radius: 99px; height: 6px; overflow: hidden; }
+    .progress-fill { background: linear-gradient(90deg, #2563eb, #06b6d4); height: 100%; border-radius: 99px; transition: width 0.4s ease; }
+
+    /* Card */
+    .card { background: white; border-radius: 20px; box-shadow: 0 4px 32px rgba(37,99,235,0.10); padding: 40px 36px; width: 100%; max-width: 620px; animation: fadeUp 0.35s ease; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+
+    .q-icon { font-size: 2.6rem; text-align: center; margin-bottom: 14px; }
+    .q-number { font-size: 0.78rem; font-weight: 700; color: #2563eb; text-transform: uppercase; letter-spacing: 1px; text-align: center; margin-bottom: 6px; }
+    .q-text { font-size: 1.25rem; font-weight: 800; text-align: center; line-height: 1.4; color: #1a1a2e; margin-bottom: 8px; }
+    .q-sub { font-size: 0.9rem; color: #666; text-align: center; margin-bottom: 28px; line-height: 1.5; }
+
+    .options { display: flex; flex-direction: column; gap: 12px; }
+    .option { display: flex; align-items: center; gap: 14px; padding: 16px 18px; border: 2px solid #e2e8f0; border-radius: 12px; cursor: pointer; transition: all 0.2s; background: white; text-align: left; width: 100%; font-size: 0.97rem; color: #1a1a2e; }
+    .option:hover { border-color: #2563eb; background: #eff6ff; }
+    .option.selected { border-color: #2563eb; background: #eff6ff; }
+    .option-icon { font-size: 1.5rem; flex-shrink: 0; width: 36px; text-align: center; }
+    .option-text { flex: 1; }
+    .option-text strong { display: block; font-weight: 700; margin-bottom: 2px; }
+    .option-text span { font-size: 0.82rem; color: #666; }
+    .option-check { width: 22px; height: 22px; border-radius: 50%; border: 2px solid #e2e8f0; flex-shrink: 0; transition: all 0.2s; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: white; }
+    .option.selected .option-check { background: #2563eb; border-color: #2563eb; }
+    .option.selected .option-check::after { content: "✓"; }
+
+    .btn-next { margin-top: 28px; width: 100%; padding: 16px; background: #2563eb; color: white; border: none; border-radius: 12px; font-size: 1rem; font-weight: 700; cursor: pointer; transition: background 0.2s; display: none; }
+    .btn-next:hover { background: #1d4ed8; }
+    .btn-next.visible { display: block; }
+
+    /* Result */
+    .result-card { background: white; border-radius: 20px; box-shadow: 0 4px 32px rgba(37,99,235,0.12); padding: 40px 36px; width: 100%; max-width: 680px; animation: fadeUp 0.4s ease; }
+    .result-badge { display: inline-flex; align-items: center; gap: 6px; background: #dcfce7; color: #16a34a; font-size: 0.78rem; font-weight: 700; padding: 5px 12px; border-radius: 99px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 20px; }
+    .result-title { font-size: 1.7rem; font-weight: 900; color: #1a1a2e; margin-bottom: 6px; line-height: 1.3; }
+    .result-brand { font-size: 0.9rem; color: #2563eb; font-weight: 700; margin-bottom: 20px; }
+    .result-divider { border: none; border-top: 2px solid #f0f4ff; margin: 24px 0; }
+    .result-price { font-size: 2rem; font-weight: 900; color: #2563eb; margin-bottom: 4px; }
+    .result-price-sub { font-size: 0.85rem; color: #888; margin-bottom: 24px; }
+
+    .why-title { font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #666; margin-bottom: 12px; }
+    .why-list { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+    .why-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #333; }
+    .why-list li::before { content: "✦"; color: #2563eb; font-size: 0.8rem; margin-top: 3px; flex-shrink: 0; }
+
+    .features-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 28px; }
+    .feature-chip { background: #f0f4ff; border-radius: 8px; padding: 10px 14px; font-size: 0.85rem; color: #1a1a2e; display: flex; align-items: center; gap: 8px; }
+    .feature-chip span { font-size: 1.1rem; }
+
+    .btn-amazon { display: block; width: 100%; padding: 18px; background: #FF9900; color: #1a1a2e; border: none; border-radius: 12px; font-size: 1.05rem; font-weight: 800; cursor: pointer; text-align: center; text-decoration: none; transition: background 0.2s; margin-bottom: 12px; }
+    .btn-amazon:hover { background: #e68900; }
+    .btn-retry { display: block; width: 100%; padding: 14px; background: transparent; color: #2563eb; border: 2px solid #2563eb; border-radius: 12px; font-size: 0.95rem; font-weight: 700; cursor: pointer; text-align: center; transition: all 0.2s; }
+    .btn-retry:hover { background: #eff6ff; }
+
+    .disclaimer { font-size: 0.78rem; color: #aaa; text-align: center; margin-top: 16px; }
+
+    .hidden { display: none; }
+    @media (max-width: 500px) { .card, .result-card { padding: 28px 20px; } .features-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html">🦷 DailySmileCare</a>
+  <span>/</span>
+  <span style="color:#ccc">Find Your Brush</span>
+</nav>
+
+<div class="quiz-wrap">
+
+  <!-- Progress -->
+  <div class="progress-bar-wrap" id="progressWrap">
+    <div class="progress-label">
+      <span id="progressLabel">Question 1 of 10</span>
+      <span id="progressPct">0%</span>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+  </div>
+
+  <!-- Quiz Card -->
+  <div class="card" id="quizCard">
+    <div class="q-icon" id="qIcon"></div>
+    <div class="q-number" id="qNumber"></div>
+    <div class="q-text" id="qText"></div>
+    <div class="q-sub" id="qSub"></div>
+    <div class="options" id="options"></div>
+    <button class="btn-next" id="btnNext" onclick="nextQuestion()">Continue →</button>
+  </div>
+
+  <!-- Result Card -->
+  <div class="result-card hidden" id="resultCard"></div>
+
+</div>
+
+<script>
+const PRODUCTS = [
+  { id:1,  name:"Philips Sonicare 4100",           brand:"Philips", price:55.99,  technology:"sonic",       modes:1, battery:2,  app:false, travel:false, whitening:false, sensitive:true,  eco:false, medical:["senior","arthritis"], url:"https://amzn.to/41GkEug" },
+  { id:2,  name:"Aquasonic Black Series",           brand:"Aquasonic", price:39.95, technology:"sonic",     modes:4, battery:4,  app:false, travel:true,  whitening:true,  sensitive:true,  eco:false, medical:[],                    url:"https://amzn.to/3PFV8Tm" },
+  { id:3,  name:"Philips Sonicare 4100 Rechargeable",brand:"Philips", price:55.99, technology:"sonic",      modes:1, battery:2,  app:false, travel:false, whitening:false, sensitive:true,  eco:false, medical:["senior","arthritis"], url:"https://amzn.to/4dWjTEK" },
+  { id:4,  name:"Philips Sonicare ProtectiveClean 5300", brand:"Philips", price:109.96, technology:"sonic", modes:3, battery:2,  app:false, travel:true,  whitening:true,  sensitive:true,  eco:false, medical:["diabetes","pregnancy"], url:"https://amzn.to/3Qcd2x0" },
+  { id:5,  name:"Philips Sonicare 7300",            brand:"Philips", price:175.23, technology:"sonic",      modes:4, battery:2,  app:true,  travel:false, whitening:true,  sensitive:true,  eco:false, medical:[],                    url:"https://amzn.to/4sc30tk" },
+  { id:6,  name:"Philips Sonicare ExpertClean 7500",brand:"Philips", price:199.99, technology:"sonic",      modes:3, battery:2,  app:true,  travel:true,  whitening:true,  sensitive:true,  eco:false, medical:[],                    url:"https://amzn.to/486baMu" },
+  { id:7,  name:"Oral-B iO 3",                     brand:"Oral-B",  price:109.99, technology:"oscillating",modes:2, battery:2,  app:false, travel:false, whitening:false, sensitive:true,  eco:false, medical:[],                    url:"https://amzn.to/4m4jfqR" },
+  { id:8,  name:"Oral-B Pro 1000",                 brand:"Oral-B",  price:49.94,  technology:"oscillating",modes:1, battery:2,  app:false, travel:false, whitening:false, sensitive:true,  eco:false, medical:["pregnancy"],          url:"https://amzn.to/4m52Q5z" },
+  { id:9,  name:"Philips Sonicare Series 5900",    brand:"Philips", price:79.96,  technology:"sonic",      modes:3, battery:3,  app:false, travel:false, whitening:true,  sensitive:true,  eco:false, medical:[],                    url:"https://amzn.to/4s5WmEM" },
+  { id:10, name:"Philips Sonicare DiamondClean 9900",brand:"Philips", price:429.96,technology:"sonic",      modes:5, battery:4,  app:true,  travel:true,  whitening:true,  sensitive:true,  eco:false, medical:[],                    url:"https://amzn.to/4tgErfv" },
+  { id:11, name:"Oral-B iO 5",                     brand:"Oral-B",  price:149.99, technology:"oscillating",modes:5, battery:2,  app:true,  travel:false, whitening:true,  sensitive:true,  eco:false, medical:[],                    url:"https://amzn.to/4dW7z7m" },
+  { id:12, name:"Philips Sonicare ProtectiveClean 6500",brand:"Philips",price:179.96,technology:"sonic",   modes:9, battery:4,  app:false, travel:true,  whitening:true,  sensitive:true,  eco:false, medical:["heart","diabetes"],   url:"https://amzn.to/47zRn80" },
+  { id:13, name:"Oral-B iO 9",                     brand:"Oral-B",  price:379.99, technology:"oscillating",modes:7, battery:2,  app:true,  travel:true,  whitening:true,  sensitive:true,  eco:false, medical:["invisalign"],         url:"https://amzn.to/3Og0eFk" },
+  { id:14, name:"Philips Sonicare 6500 Series",    brand:"Philips", price:129.96, technology:"sonic",      modes:3, battery:3,  app:false, travel:false, whitening:true,  sensitive:true,  eco:false, medical:[],                    url:"https://amzn.to/48oxL75" },
+  { id:15, name:"Philips Sonicare DiamondClean 9500",brand:"Philips",price:279.96,technology:"sonic",      modes:5, battery:3,  app:true,  travel:true,  whitening:true,  sensitive:true,  eco:false, medical:[],                    url:"https://amzn.to/4sMLOvC" },
+  { id:16, name:"RANVOO AirJet X5",                brand:"RANVOO",  price:127.49, technology:"airjet",     modes:5, battery:3,  app:false, travel:false, whitening:true,  sensitive:true,  eco:true,  medical:[],                    url:"https://amzn.to/4bJfVho" },
+  { id:17, name:"Philips Sonicare 4100 Rose",      brand:"Philips", price:42.00,  technology:"sonic",      modes:1, battery:2,  app:false, travel:false, whitening:false, sensitive:true,  eco:false, medical:[],                    url:"https://amzn.to/4cjbZUF" },
+];
+
+const QUESTIONS = [
+  {
+    icon: "🎯", number: "Question 1 of 10",
+    text: "What is your primary goal?",
+    sub: "This helps us prioritize what matters most for your smile.",
+    options: [
+      { icon:"✨", label:"Whiter teeth", desc:"Remove stains, brighten my smile", key:"goal", val:"whitening" },
+      { icon:"🩺", label:"Healthier gums", desc:"Reduce bleeding, prevent gum disease", key:"goal", val:"gums" },
+      { icon:"🦷", label:"Complete daily clean", desc:"Just effective, thorough brushing", key:"goal", val:"clean" },
+      { icon:"💊", label:"Medical recommendation", desc:"My doctor told me to upgrade", key:"goal", val:"medical" },
+    ]
+  },
+  {
+    icon: "🌡️", number: "Question 2 of 10",
+    text: "How sensitive are your gums?",
+    sub: "Sensitivity affects which cleaning modes and pressure levels suit you best.",
+    options: [
+      { icon:"😣", label:"Very sensitive", desc:"Bleeding, pain, or diagnosed gum disease", key:"sensitivity", val:"high" },
+      { icon:"😐", label:"Slightly sensitive", desc:"Occasional discomfort, nothing serious", key:"sensitivity", val:"medium" },
+      { icon:"😄", label:"Not sensitive at all", desc:"No issues, I brush hard without problems", key:"sensitivity", val:"low" },
+    ]
+  },
+  {
+    icon: "💊", number: "Question 3 of 10",
+    text: "Do you have a specific health condition?",
+    sub: "Certain conditions have a direct link to oral health — your dentist knows.",
+    options: [
+      { icon:"🩸", label:"Type 2 Diabetes", desc:"Gum disease affects blood sugar levels", key:"medical", val:"diabetes" },
+      { icon:"❤️", label:"Heart condition", desc:"Oral bacteria affects cardiovascular health", key:"medical", val:"heart" },
+      { icon:"🤰", label:"Pregnancy", desc:"Pregnancy gingivitis is a real risk", key:"medical", val:"pregnancy" },
+      { icon:"😁", label:"Invisalign / Braces", desc:"Orthodontic treatment requires precision cleaning", key:"medical", val:"invisalign" },
+      { icon:"🦴", label:"Arthritis / Senior", desc:"Need easy grip and gentle handling", key:"medical", val:"senior" },
+      { icon:"✅", label:"None", desc:"No specific medical context", key:"medical", val:"none" },
+    ]
+  },
+  {
+    icon: "📱", number: "Question 4 of 10",
+    text: "How important is app connectivity to you?",
+    sub: "Smart brushes connect to your phone to track your brushing zones in real time.",
+    options: [
+      { icon:"🔥", label:"Essential", desc:"I want real-time data and brushing coaching", key:"app", val:"yes" },
+      { icon:"👍", label:"Nice to have", desc:"I'd use it occasionally if it's there", key:"app", val:"maybe" },
+      { icon:"🚫", label:"Not important", desc:"I just want a great brush, no phone needed", key:"app", val:"no" },
+    ]
+  },
+  {
+    icon: "🔋", number: "Question 5 of 10",
+    text: "What battery life do you need?",
+    sub: "Relevant if you travel, forget to charge, or value low-maintenance routines.",
+    options: [
+      { icon:"⚡", label:"2 weeks is fine", desc:"I'm happy to charge every 2 weeks", key:"battery", val:"short" },
+      { icon:"🔋", label:"3–4 weeks preferred", desc:"I want to charge as rarely as possible", key:"battery", val:"long" },
+      { icon:"🤷", label:"Doesn't matter", desc:"I'll charge whenever, no preference", key:"battery", val:"any" },
+    ]
+  },
+  {
+    icon: "✈️", number: "Question 6 of 10",
+    text: "Do you travel frequently?",
+    sub: "Some models include a travel charging case that's essential for frequent travelers.",
+    options: [
+      { icon:"🧳", label:"Yes, I travel often", desc:"I need a travel case or compact setup", key:"travel", val:"yes" },
+      { icon:"🏠", label:"No, mostly at home", desc:"I rarely need to pack my brush", key:"travel", val:"no" },
+    ]
+  },
+  {
+    icon: "⚡", number: "Question 7 of 10",
+    text: "Any technology preference?",
+    sub: "Sonic and oscillating are clinically comparable — it comes down to feel.",
+    options: [
+      { icon:"🔵", label:"Sonic (Philips Sonicare)", desc:"High-frequency vibration, lighter feel", key:"technology", val:"sonic" },
+      { icon:"🟠", label:"Oscillating (Oral-B)", desc:"Rotating round head, dentist-office feel", key:"technology", val:"oscillating" },
+      { icon:"🌿", label:"Eco-friendly (RANVOO AirJet)", desc:"Air-driven tech, 47% less plastic", key:"technology", val:"airjet" },
+      { icon:"🤷", label:"No preference", desc:"Show me the best match regardless", key:"technology", val:"any" },
+    ]
+  },
+  {
+    icon: "🎛️", number: "Question 8 of 10",
+    text: "How many cleaning modes do you want?",
+    sub: "More modes means more versatility — but also more complexity.",
+    options: [
+      { icon:"1️⃣", label:"Just one (keep it simple)", desc:"One great mode, no decisions to make", key:"modes", val:"simple" },
+      { icon:"🔢", label:"2–3 modes", desc:"Clean + Sensitive or Whitening", key:"modes", val:"few" },
+      { icon:"🎚️", label:"4+ modes", desc:"Full flexibility for every situation", key:"modes", val:"many" },
+    ]
+  },
+  {
+    icon: "🌿", number: "Question 9 of 10",
+    text: "How important is eco-friendliness?",
+    sub: "Electric brushes already reduce plastic waste vs. manual — some go further.",
+    options: [
+      { icon:"♻️", label:"Very important", desc:"I want the lowest environmental footprint", key:"eco", val:"yes" },
+      { icon:"🌱", label:"Somewhat", desc:"I'd prefer eco but it's not a dealbreaker", key:"eco", val:"maybe" },
+      { icon:"⚙️", label:"Not a priority", desc:"Performance and features come first", key:"eco", val:"no" },
+    ]
+  },
+  {
+    icon: "💰", number: "Question 10 of 10",
+    text: "What is your budget?",
+    sub: "All prices are one-time purchases — no subscriptions required.",
+    options: [
+      { icon:"💵", label:"Under $50", desc:"Budget-friendly, no compromises on basics", key:"budget", val:"50" },
+      { icon:"💵", label:"$50–$100", desc:"Mid-entry, reliable and proven", key:"budget", val:"100" },
+      { icon:"💳", label:"$100–$150", desc:"Mid-range with smart features", key:"budget", val:"150" },
+      { icon:"💳", label:"$150–$200", desc:"Advanced features and connectivity", key:"budget", val:"200" },
+      { icon:"💎", label:"$200+", desc:"Premium — the absolute best available", key:"budget", val:"200plus" },
+    ]
+  }
+];
+
+const REASONS = {
+  1:  ["Gentle sonic cleaning for the whole family", "Pressure sensor protects sensitive gums", "Simple one-button operation — no learning curve", "2-week battery life, charge and forget"],
+  2:  ["Best value on the market — 8 heads included", "Whitening mode shows results in 2–4 weeks", "4 cleaning modes cover every family member", "40,000 VPM removes significantly more plaque than manual"],
+  3:  ["Easy-Start program for a gentle transition", "Arthritis-friendly ergonomic handle design", "Pressure sensor prevents gum damage", "Dentist-recommended brand for seniors"],
+  4:  ["Pressure sensor and Sensitive mode for gum health", "Travel case — essential for your routine on the go", "Clinically proven to reduce gum bleeding in 4 weeks", "Recommended for pregnancy and diabetes management"],
+  5:  ["16-zone AI brushing coaching via Sonicare app", "Bluetooth tracks your technique and improves it over time", "Pairs with Apple Health for full biometric integration", "Best smart brush under $200"],
+  6:  ["App connectivity with detailed brushing reports", "Travel case keeps your routine consistent anywhere", "Advanced pressure sensor for precise protection", "Premium Sonicare technology at a fair price"],
+  7:  ["iO magnetic drive is noticeably quieter than standard", "Smart pressure sensor glows green when technique is perfect", "Round brush head mirrors what dentists use in-office", "Great entry point into the Oral-B iO ecosystem"],
+  8:  ["#1 dentist-recommended brand in the U.S.", "Pressure sensor stops pulsating to prevent gum damage", "Proven oscillating-rotating technology", "Safe and recommended during pregnancy"],
+  9:  ["3-week battery — the best in the mid-range tier", "3 cleaning modes including White+ and Gum Health", "Sonic cleaning with a sleek, minimal design", "Strong value between the 4100 and 5300"],
+  10: ["SenseIQ adapts cleaning intensity 800 times per second", "The only brush that corrects your technique in real time", "Glass charging dock is a premium statement piece", "Clinically proven 10× better gum health outcomes"],
+  11: ["5 cleaning modes including Super Sensitive and Orthodontic", "App zone detection shows exactly what you're missing", "iO magnetic drive is smooth, quiet, and precise", "Best Oral-B for buyers who want app features under $150"],
+  12: ["3-zone pressure sensor — the most comprehensive under $200", "UV sanitizer in travel case eliminates bacterial transfer", "4-week battery — the longest in the mid-premium tier", "Cardiologist and endocrinologist recommended"],
+  13: ["Dedicated Orthodontic mode protects your aligner margins", "AI 3D mouth tracking shows every missed zone", "UV sanitizer travel case prevents bacterial contamination", "Whitening mode prevents staining during treatment"],
+  14: ["3 cleaning modes with a 3-week battery life", "Best battery-to-price ratio in the Sonicare lineup", "Reliable upgrade path from the 4100", "Sonic cleaning with a sleek minimal aesthetic"],
+  15: ["DiamondClean brush head clinically proven for gum health", "Full AI coaching with zone detection under $300", "5 cleaning modes for complete clinical coverage", "Wireless glass dock charging — a premium daily ritual"],
+  16: ["47% less plastic lifecycle vs. manual brushing", "TerraCycle compatible — heads stay out of landfill", "Air-driven technology: quieter, gentler, unique", "USB-C charging — no proprietary cable dependency"],
+  17: ["Same sonic cleaning as the 4100 at a lower price", "Rose colorway — a brush you'll actually want to pick up", "Teal BrushSync pressure sensor protects gums", "Prime Student eligible — ships next day"],
+};
+
+const FEATURES = {
+  1:  [["🔵","Sonic technology"],["🛡️","Pressure sensor"],["🔋","2-week battery"],["1️⃣","1 cleaning mode"]],
+  2:  [["⚡","40,000 VPM"],["✨","Whitening mode"],["🔋","4-week battery"],["🎛️","4 cleaning modes"]],
+  3:  [["🔵","Sonic + Easy-Start"],["🛡️","Pressure sensor"],["🔋","2-week battery"],["🦴","Arthritis-friendly grip"]],
+  4:  [["🔵","Sonic technology"],["🧳","Travel case included"],["🛡️","Pressure sensor"],["🎛️","3 cleaning modes"]],
+  5:  [["📱","App-connected"],["🗺️","16-zone tracking"],["🔵","Sonic technology"],["🎛️","4 cleaning modes"]],
+  6:  [["📱","App-connected"],["🧳","Travel case"],["🛡️","Pressure sensor"],["🔵","Sonic technology"]],
+  7:  [["🟠","iO magnetic drive"],["🛡️","3-color pressure ring"],["🎛️","2 cleaning modes"],["🔕","40% quieter"]],
+  8:  [["🟠","Oscillating-rotating"],["🛡️","Pressure sensor"],["⏱️","2-minute timer"],["🏥","#1 dentist brand"]],
+  9:  [["🔵","Sonic technology"],["🔋","3-week battery"],["🎛️","3 cleaning modes"],["✨","White+ mode"]],
+  10: [["🧠","SenseIQ adaptive tech"],["📱","App-connected"],["🔋","4-week battery"],["🎛️","5 cleaning modes"]],
+  11: [["📱","App + zone tracking"],["🟠","iO magnetic drive"],["🎛️","5 cleaning modes"],["🛡️","3-zone pressure sensor"]],
+  12: [["🛡️","3-zone pressure sensor"],["🔆","UV sanitizer"],["🔋","4-week battery"],["🎛️","9 mode combinations"]],
+  13: [["🦷","Orthodontic mode"],["📱","AI 3D tracking"],["🔆","UV sanitizer travel case"],["🎛️","7 cleaning modes"]],
+  14: [["🔵","Sonic technology"],["🔋","3-week battery"],["🎛️","3 cleaning modes"],["💰","Best battery/price"]],
+  15: [["💎","DiamondClean head"],["📱","AI zone coaching"],["🎛️","5 cleaning modes"],["🧳","Glass dock charging"]],
+  16: [["🌿","47% less plastic"],["♻️","TerraCycle compatible"],["🔌","USB-C charging"],["🎛️","5 cleaning modes"]],
+  17: [["🔵","Sonic technology"],["🌸","Rose colorway"],["🛡️","Pressure sensor"],["💰","Best Sonicare price"]],
+};
+
+let answers = {};
+let currentQ = 0;
+let scores = {};
+
+PRODUCTS.forEach(p => scores[p.id] = 0);
+
+function renderQuestion(index) {
+  const q = QUESTIONS[index];
+  const pct = Math.round((index / QUESTIONS.length) * 100);
+  document.getElementById("progressLabel").textContent = `Question ${index+1} of ${QUESTIONS.length}`;
+  document.getElementById("progressPct").textContent = pct + "%";
+  document.getElementById("progressFill").style.width = pct + "%";
+  document.getElementById("qIcon").textContent = q.icon;
+  document.getElementById("qNumber").textContent = q.number;
+  document.getElementById("qText").textContent = q.text;
+  document.getElementById("qSub").textContent = q.sub;
+
+  const container = document.getElementById("options");
+  container.innerHTML = "";
+  q.options.forEach((opt, i) => {
+    const btn = document.createElement("button");
+    btn.className = "option";
+    btn.innerHTML = `
+      <div class="option-icon">${opt.icon}</div>
+      <div class="option-text"><strong>${opt.label}</strong><span>${opt.desc}</span></div>
+      <div class="option-check"></div>`;
+    btn.onclick = () => selectOption(btn, opt, q.options);
+    container.appendChild(btn);
+  });
+
+  const next = document.getElementById("btnNext");
+  next.classList.remove("visible");
+  next.textContent = index === QUESTIONS.length - 1 ? "See My Result →" : "Continue →";
+
+  document.getElementById("quizCard").style.animation = "none";
+  requestAnimationFrame(() => { document.getElementById("quizCard").style.animation = "fadeUp 0.35s ease"; });
+}
+
+function selectOption(btn, opt, allOpts) {
+  document.querySelectorAll(".option").forEach(o => o.classList.remove("selected"));
+  btn.classList.add("selected");
+  answers[opt.key] = opt.val;
+  document.getElementById("btnNext").classList.add("visible");
+}
+
+function nextQuestion() {
+  applyScores();
+  currentQ++;
+  if (currentQ >= QUESTIONS.length) {
+    showResult();
+  } else {
+    renderQuestion(currentQ);
+  }
+}
+
+function applyScores() {
+  const q = QUESTIONS[currentQ];
+  const ans = answers[q.options[0].key];
+
+  PRODUCTS.forEach(p => {
+    let delta = 0;
+
+    if (q.options[0].key === "goal") {
+      if (ans === "whitening" && p.whitening) delta += 3;
+      if (ans === "gums" && p.sensitive) delta += 2;
+      if (ans === "medical" && p.medical.length > 0) delta += 2;
+      if (ans === "clean") delta += 1;
+    }
+    if (q.options[0].key === "sensitivity") {
+      if (ans === "high" && p.sensitive) delta += 3;
+      if (ans === "medium" && p.sensitive) delta += 1;
+    }
+    if (q.options[0].key === "medical") {
+      if (ans !== "none" && p.medical.includes(ans)) delta += 10;
+      if (ans === "none") delta += 1;
+    }
+    if (q.options[0].key === "app") {
+      if (ans === "yes" && p.app) delta += 5;
+      if (ans === "no" && !p.app) delta += 2;
+      if (ans === "maybe" && p.app) delta += 2;
+    }
+    if (q.options[0].key === "battery") {
+      if (ans === "long" && p.battery >= 3) delta += 3;
+      if (ans === "short" && p.battery <= 2) delta += 1;
+      if (ans === "any") delta += 1;
+    }
+    if (q.options[0].key === "travel") {
+      if (ans === "yes" && p.travel) delta += 4;
+      if (ans === "no" && !p.travel) delta += 1;
+    }
+    if (q.options[0].key === "technology") {
+      if (ans === "sonic" && p.technology === "sonic") delta += 5;
+      if (ans === "oscillating" && p.technology === "oscillating") delta += 5;
+      if (ans === "airjet" && p.technology === "airjet") delta += 10;
+      if (ans === "any") delta += 1;
+    }
+    if (q.options[0].key === "modes") {
+      if (ans === "simple" && p.modes <= 1) delta += 4;
+      if (ans === "few" && p.modes >= 2 && p.modes <= 3) delta += 4;
+      if (ans === "many" && p.modes >= 4) delta += 4;
+    }
+    if (q.options[0].key === "eco") {
+      if (ans === "yes" && p.eco) delta += 10;
+      if (ans === "maybe" && p.eco) delta += 3;
+      if (ans !== "yes" && !p.eco) delta += 1;
+    }
+    if (q.options[0].key === "budget") {
+      const budgets = { "50": [0,50], "100": [50,100], "150": [100,150], "200": [150,200], "200plus": [200,1000] };
+      const [min, max] = budgets[ans];
+      if (p.price >= min && p.price <= max) delta += 6;
+      if (p.price < min) delta -= 2;
+    }
+
+    scores[p.id] += delta;
+  });
+}
+
+function showResult() {
+  document.getElementById("progressFill").style.width = "100%";
+  document.getElementById("progressPct").textContent = "100%";
+  document.getElementById("progressLabel").textContent = "Complete!";
+  document.getElementById("quizCard").classList.add("hidden");
+
+  const best = PRODUCTS.reduce((a, b) => scores[a.id] >= scores[b.id] ? a : b);
+  const reasons = REASONS[best.id];
+  const features = FEATURES[best.id];
+
+  const card = document.getElementById("resultCard");
+  card.classList.remove("hidden");
+  card.innerHTML = `
+    <div class="result-badge">✦ Your Perfect Match</div>
+    <div class="result-title">${best.name}</div>
+    <div class="result-brand">${best.brand} · Based on your 10 answers</div>
+    <hr class="result-divider" />
+    <div class="result-price">$${best.price.toFixed(2)}</div>
+    <div class="result-price-sub">One-time purchase · Amazon Prime eligible</div>
+    <div class="why-title">Why it's right for you</div>
+    <ul class="why-list">
+      ${reasons.map(r => `<li>${r}</li>`).join("")}
+    </ul>
+    <div class="why-title">Key features</div>
+    <div class="features-grid">
+      ${features.map(([icon, label]) => `<div class="feature-chip"><span>${icon}</span>${label}</div>`).join("")}
+    </div>
+    <a class="btn-amazon" href="${best.url}" target="_blank" rel="noopener">👉 Check Price on Amazon — $${best.price.toFixed(2)}</a>
+    <button class="btn-retry" onclick="resetQuiz()">↩ Retake the quiz</button>
+    <p class="disclaimer">As an Amazon Associate, DailySmileCare earns from qualifying purchases.</p>`;
+}
+
+function resetQuiz() {
+  answers = {};
+  currentQ = 0;
+  PRODUCTS.forEach(p => scores[p.id] = 0);
+  document.getElementById("resultCard").classList.add("hidden");
+  document.getElementById("quizCard").classList.remove("hidden");
+  renderQuestion(0);
+}
+
+renderQuestion(0);
+</script>
+</body>
+</html>

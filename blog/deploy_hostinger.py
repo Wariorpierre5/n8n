@@ -3,7 +3,7 @@
 
 Structure locale  →  Structure distante (public_html)
 -----------------     ----------------------------------
-index.html            index.html
+blog/index.html       index.html
 blog/quiz.html        quiz.html
 blog/posts/*          posts/*
 blog/images/*         images/*
@@ -24,7 +24,7 @@ NEW_DOMAIN = "dailysmilecare.com"
 
 # Fichiers à la racine : (chemin local relatif, chemin distant relatif)
 ROOT_FILES = [
-    ("index.html", "index.html"),
+    ("blog/index.html", "index.html"),
     ("blog/quiz.html", "quiz.html"),
 ]
 

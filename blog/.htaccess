@@ -1,0 +1,27 @@
+# DailySmileCare — rewrite rules
+
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 301 redirect : /blog/foo → /foo (compat ancien caches/bookmarks)
+RewriteRule ^blog/(.*)$ /$1 [R=301,L]
+
+# Cache statique court (HTML revalidate chaque visite, assets longue durée)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(png|jpg|jpeg|gif|webp|svg|ico|woff|woff2|css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+# Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Page d'erreur 404
+ErrorDocument 404 /index.html

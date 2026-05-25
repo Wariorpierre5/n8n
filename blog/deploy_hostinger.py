@@ -24,6 +24,7 @@ NEW_DOMAIN = "dailysmilecare.com"
 
 # Fichiers à la racine : (chemin local relatif, chemin distant relatif)
 ROOT_FILES = [
+    ("blog/.htaccess", ".htaccess"),
     ("blog/index.html", "index.html"),
     ("blog/quiz.html", "quiz.html"),
 ]

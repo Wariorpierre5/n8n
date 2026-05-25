@@ -1,1 +1,18 @@
 .DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# T9 — Veo-generated videos (artefacts, regenerable)
+personas/videos/
+
+# Local project tooling not for repo
+.vscode/
+raccourcis/
+Plan_Travail_DailySmileCare.pdf
+plan_travail_dailysmilecare.py

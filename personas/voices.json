@@ -1,0 +1,82 @@
+{
+  "1": {
+    "name": "Ashley",
+    "voice_name": "Aoede",
+    "speaking_style": "Speak warmly and naturally, like a busy Ohio suburban mom giving an honest recommendation to a friend.",
+    "region": "Ohio",
+    "sample_text": "Honestly, I just needed something that works without breaking the bank for the whole family.",
+    "sample_path": "personas/voices/ashley.wav"
+  },
+  "2": {
+    "name": "Dorothy",
+    "voice_name": "Sulafat",
+    "speaking_style": "Speak calmly and steadily, in a slightly slower pace, like a 68-year-old retired nurse from Phoenix sharing wisdom.",
+    "region": "Phoenix, AZ",
+    "sample_text": "After forty years as a nurse, I know which routines stick. This one stuck.",
+    "sample_path": "personas/voices/dorothy.wav"
+  },
+  "3": {
+    "name": "Ethan",
+    "voice_name": "Charon",
+    "speaking_style": "Speak in a measured, thoughtful tone, like a 38-year-old eco-conscious Portland dad explaining a deliberate choice.",
+    "region": "Portland, OR",
+    "sample_text": "I dug into the materials, the lifecycle data, and the company behind it before I bought.",
+    "sample_path": "personas/voices/ethan.wav"
+  },
+  "4": {
+    "name": "Jordan",
+    "voice_name": "Puck",
+    "speaking_style": "Speak with energy and a casual, friendly cadence, like a 26-year-old Austin athlete sharing a fitness insight.",
+    "region": "Austin, TX",
+    "sample_text": "Real talk — my Oura data showed my recovery was off, and gum health was the missing link.",
+    "sample_path": "personas/voices/jordan.wav"
+  },
+  "5": {
+    "name": "Linda",
+    "voice_name": "Vindemiatrix",
+    "speaking_style": "Speak with calm authority and warmth, like a 58-year-old Black woman from Houston managing her health with intention.",
+    "region": "Houston, TX",
+    "sample_text": "When my doctor said gum disease and diabetes work together, I had to do something about it.",
+    "sample_path": "personas/voices/linda.wav"
+  },
+  "6": {
+    "name": "Marcus",
+    "voice_name": "Iapetus",
+    "speaking_style": "Speak with composed authority, like a polished 52-year-old corporate executive from Atlanta — confident but never showy.",
+    "region": "Atlanta, GA",
+    "sample_text": "When I commit to a daily ritual, the tool needs to match the standard. This one does.",
+    "sample_path": "personas/voices/marcus.wav"
+  },
+  "7": {
+    "name": "Priya",
+    "voice_name": "Laomedeia",
+    "speaking_style": "Speak with gentle clarity, like a 31-year-old first-time pregnant Seattle professional being careful and informed.",
+    "region": "Seattle, WA",
+    "sample_text": "I asked my OB what was safe during pregnancy — she pointed me here, and the bleeding stopped within a week.",
+    "sample_path": "personas/voices/priya.wav"
+  },
+  "8": {
+    "name": "Raymond",
+    "voice_name": "Orus",
+    "speaking_style": "Speak deliberately and steadily, in a slightly lower register, like a 61-year-old Minneapolis heart-attack survivor with calm resolve.",
+    "region": "Minneapolis, MN",
+    "sample_text": "Heart attack at fifty-nine changed everything. Now I take every part of my health seriously, including this.",
+    "sample_path": "personas/voices/raymond.wav"
+  },
+  "9": {
+    "name": "Sophia",
+    "voice_name": "Autonoe",
+    "speaking_style": "Speak with polished, articulate clarity, like a 45-year-old Latina professional from Chicago in Invisalign treatment, image-aware and precise.",
+    "region": "Chicago, IL",
+    "sample_text": "Mid-Invisalign, I needed something that cleans around the aligners without scratching them. This was it.",
+    "sample_path": "personas/voices/sophia.wav"
+  },
+  "10": {
+    "name": "Tyler",
+    "voice_name": "Fenrir",
+    "speaking_style": "Speak with relaxed millennial casualness, like a 22-year-old Nashville college senior who isn't trying to sell anything.",
+    "region": "Nashville, TN",
+    "sample_text": "Bought this because it was on sale, kept using it because it actually works. That's the whole story.",
+    "sample_path": "personas/voices/tyler.wav"
+  }
+}

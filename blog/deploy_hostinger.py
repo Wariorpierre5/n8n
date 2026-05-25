@@ -53,7 +53,9 @@ def get_all_files():
         dirpath = os.path.join(LOCAL_DIR, local_dir_rel)
         if not os.path.exists(dirpath):
             continue
-        for root, _, filenames in os.walk(dirpath):
+        for root, dirs, filenames in os.walk(dirpath):
+            # Skip directories starting with "_" (e.g., _archive)
+            dirs[:] = [d for d in dirs if not d.startswith("_")]
             for filename in filenames:
                 full = os.path.join(root, filename)
                 rel_to_dir = os.path.relpath(full, dirpath)

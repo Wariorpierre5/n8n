@@ -27,6 +27,8 @@ ROOT_FILES = [
     ("blog/.htaccess", ".htaccess"),
     ("blog/index.html", "index.html"),
     ("blog/quiz.html", "quiz.html"),
+    ("blog/privacy.html", "privacy.html"),
+    ("blog/terms.html", "terms.html"),
 ]
 
 # Dossiers dans blog/ : (chemin local relatif, chemin distant relatif)

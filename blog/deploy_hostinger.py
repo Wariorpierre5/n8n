@@ -29,6 +29,7 @@ ROOT_FILES = [
     ("blog/quiz.html", "quiz.html"),
     ("blog/privacy.html", "privacy.html"),
     ("blog/terms.html", "terms.html"),
+    ("blog/_oauth_callback.html", "_oauth_callback.html"),
 ]
 
 # Dossiers dans blog/ : (chemin local relatif, chemin distant relatif)

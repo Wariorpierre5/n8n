@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OAuth callback — DailySmileCare</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f0f4ff; min-height: 100vh; display: flex; align-items: center; justify-content: center; margin: 0; }
+    .card { background: white; border-radius: 16px; padding: 40px 48px; box-shadow: 0 4px 32px rgba(0,0,0,0.08); max-width: 480px; text-align: center; }
+    .spin { width: 60px; height: 60px; border: 4px solid #eee; border-top-color: #2563eb; border-radius: 50%; margin: 0 auto 24px; animation: spin 0.8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    h1 { font-size: 1.4rem; margin: 0 0 8px; color: #1a1a2e; }
+    p { color: #666; font-size: 0.95rem; margin: 0 0 16px; }
+    code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem; }
+    a { color: #2563eb; font-weight: 700; text-decoration: none; }
+    .err { color: #dc2626; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="spin" id="spin"></div>
+    <h1 id="title">Finalisation…</h1>
+    <p id="msg">Transmission du code OAuth au script local.</p>
+    <p id="action" style="display:none"><a href="#" id="link">Cliquer ici pour continuer manuellement →</a></p>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('code');
+    const error = params.get('error') || params.get('error_description');
+    const state = params.get('state') || '';
+
+    const titleEl = document.getElementById('title');
+    const msgEl   = document.getElementById('msg');
+    const spinEl  = document.getElementById('spin');
+    const actionEl = document.getElementById('action');
+    const linkEl  = document.getElementById('link');
+
+    if (error) {
+      spinEl.style.display = 'none';
+      titleEl.textContent = 'Erreur OAuth';
+      titleEl.className = 'err';
+      msgEl.textContent = error;
+    } else if (code) {
+      const localUrl = `http://localhost:8765/callback?code=${encodeURIComponent(code)}&state=${encodeURIComponent(state)}`;
+      titleEl.textContent = 'Code OAuth reçu';
+      msgEl.innerHTML = 'Redirection vers le script local en cours…';
+      linkEl.href = localUrl;
+      // Auto-redirect
+      window.location.href = localUrl;
+      // Fallback link shown after 2s in case auto-redirect blocked
+      setTimeout(() => { actionEl.style.display = 'block'; }, 2000);
+    } else {
+      spinEl.style.display = 'none';
+      titleEl.textContent = 'Page de callback';
+      msgEl.textContent = 'Cette page reçoit le code Meta OAuth et le passe à localhost:8765.';
+    }
+  </script>
+</body>
+</html>

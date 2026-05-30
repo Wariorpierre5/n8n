@@ -36,6 +36,7 @@ ROOT_FILES = [
 BLOG_DIRS = [
     ("blog/posts", "posts"),
     ("blog/images", "images"),
+    ("blog/css", "css"),
 ]
 
 
